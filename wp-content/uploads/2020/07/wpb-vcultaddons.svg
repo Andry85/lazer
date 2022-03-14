@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" x="0px" y="0px" viewBox="0 0 42 42" style="enable-background:new 0 0 42 42;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FFFFFF;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="10.502" y1="2.8169" x2="31.498" y2="39.1831">
+	<stop offset="6.491815e-02" style="stop-color:#4CCAFF"></stop>
+	<stop offset="0.9967" style="stop-color:#2D86F6"></stop>
+	<stop offset="1" style="stop-color:#2B7FF5"></stop>
+</linearGradient>
+<path class="st0" d="M21,0C9.4,0,0,9.4,0,21s9.4,21,21,21s21-9.4,21-21S32.6,0,21,0z"></path>
+<path class="st1" d="M30.2,12.9c-1.7,0-4-1.4-4-3.1c0-0.4-0.3-0.7-0.7-0.7h-9.2c-0.4,0-0.7,0.3-0.7,0.7c0,1.7-2.4,3.1-4,3.1  c-0.4,0-0.7,0.3-0.7,0.7v6.3c0,3,0.9,5.8,2.7,8.2c1.8,2.4,4.2,4.1,7.1,5c0.1,0,0.1,0,0.2,0s0.1,0,0.2,0c2.9-0.8,5.3-2.6,7.1-5  c1.8-2.4,2.7-5.3,2.7-8.2v-6.3C30.9,13.3,30.6,12.9,30.2,12.9z M20.4,26.4l-4.2-2.6c-0.2-0.1-0.3-0.3-0.3-0.5v-4.6l4.4,2.7V26.4z   M21,20.5l-4.4-2.7l4.2-2.2c0.2-0.1,0.4-0.1,0.5,0l4.2,2.2L21,20.5z M26,23.3c0,0.2-0.1,0.4-0.3,0.5l-4.2,2.6v-5l4.4-2.7V23.3z"></path>
+</svg>

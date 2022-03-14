@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" x="0px" y="0px" viewBox="0 0 42 42" style="enable-background:new 0 0 42 42;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FFFFFF;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="10.502" y1="2.8169" x2="31.498" y2="39.1831">
+	<stop offset="6.586888e-02" style="stop-color:#1DE6FB"></stop>
+	<stop offset="0.9958" style="stop-color:#0DA7ED"></stop>
+	<stop offset="0.9981" style="stop-color:#0AA9FA"></stop>
+</linearGradient>
+<path class="st0" d="M21,0C9.4,0,0,9.4,0,21s9.4,21,21,21s21-9.4,21-21S32.6,0,21,0z"></path>
+<g>
+	<g>
+		<path class="st1" d="M9.5,23.4v5c0,0.2,0.1,0.5,0.3,0.6l4.4,2.5v-5.4L9.5,23.4z"></path>
+	</g>
+</g>
+<g>
+	<g>
+		<polygon class="st1" points="15.6,26.1 15.6,31.5 20.3,28.8 20.3,23.4   "></polygon>
+	</g>
+</g>
+<g>
+	<g>
+		<polygon class="st1" points="21.7,23.4 21.7,28.8 26.4,31.5 26.4,26.1   "></polygon>
+	</g>
+</g>
+<g>
+	<g>
+		<path class="st1" d="M27.7,26.1v5.4l4.4-2.5c0.2-0.1,0.3-0.3,0.3-0.6v-5L27.7,26.1z"></path>
+	</g>
+</g>
+<g>
+	<g>
+		<polygon class="st1" points="27.1,19.3 21.9,21.9 27.1,24.9 32.3,21.9   "></polygon>
+	</g>
+</g>
+<g>
+	<g>
+		<path class="st1" d="M21.3,8.6c-0.2-0.1-0.4-0.1-0.6,0l-4.9,2.5l5.2,3l5.2-3L21.3,8.6z"></path>
+	</g>
+</g>
+<g>
+	<g>
+		<polygon class="st1" points="15.6,12.5 15.6,18.2 20.3,20.5 20.3,15.2   "></polygon>
+	</g>
+</g>
+<g>
+	<g>
+		<polygon class="st1" points="14.9,19.3 9.7,21.9 14.9,24.9 20.1,21.9   "></polygon>
+	</g>
+</g>
+<g>
+	<g>
+		<polygon class="st1" points="21.7,15.2 21.7,20.5 26.4,18.2 26.4,12.5   "></polygon>
+	</g>
+</g>
+</svg>

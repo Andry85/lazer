@@ -1,0 +1,149 @@
+/* #Contact form
+================================================== */
+.mixin-float-line-height (@a, @b) when ((@a + 10px) > @b) {
+	line-height: @b - 10px;
+}
+less.ph(@color: #ccc) {
+input::-webkit-input-placeholder { color: @color; }
+input:-moz-placeholder { color: @color; }
+textarea::-webkit-input-placeholder { color: @color; }
+textarea:-moz-placeholder { color: @color; }
+}
+less.ph.focus(@color: #ccc) {
+input:focus::-webkit-input-placeholder { color: @color; }
+input:focus:-moz-placeholder { color: @color; }
+textarea:focus::-webkit-input-placeholder { color: @color; }
+textarea:focus:-moz-placeholder { color: @color; }
+}
+less.ph(fade(@input-color, 50%));
+less.ph.focus(fade(@input-color, 15%));
+.form-fields label,
+.comment-form label:not([for="wp-comment-cookies-consent"]) {
+	color: @input-color;
+}
+input[type="text"],
+.widget_search input[type="text"].searchform-s,
+input[type="search"],
+input[type="tel"],
+input[type="url"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="range"],
+input[type="password"],
+select,
+textarea,
+.wpcf7-number,
+.woocommerce div.elementor .the7-elementor-widget form.cart table.variations td.value select,
+.the7-elementor-product-comments .elementor-field-textual{
+	color: @input-color;
+	border-top-width: @top-input-border-width;
+	border-right-width: @right-input-border-width;
+	border-bottom-width: @bottom-input-border-width;
+	border-left-width: @left-input-border-width;
+	padding: @top-input-padding @right-input-padding @bottom-input-padding @left-input-padding;
+	border-color: @input-border-color;
+	background-color: @input-bg-color;
+	border-radius: @input-border-radius;
+	.content & {
+		font-size: var(--the7-base-font-size);
+		line-height: var(--the7-base-line-height);
+		.mixin-float-line-height (@base-line-height, @input-height)
+	}
+}
+input[type="text"],
+.widget_search input[type="text"].searchform-s,
+input[type="search"],
+input[type="tel"],
+input[type="url"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="range"],
+input[type="password"],
+select,
+.wpcf7-number,
+.tinvwl-input-group .form-control,
+.woocommerce div.elementor .the7-elementor-widget form.cart table.variations td.value select{
+	height: @input-height;
+}
+.formError + input,
+.formError + textarea {
+	border-color: #f55b5f;
+}
+
+ select:focus,
+ .woocommerce div.product.elementor form.cart table.variations td.value:focus:before {
+	outline: 0px solid transparent;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1) inset;
+ }
+
+.dt-btn {
+	.widget .dt-form &,
+	.dt-form &,
+	.comment-form & {
+		font: var(--the7-btn-m-font);
+		text-transform: var(--the7-btn-m-text-transform);
+		letter-spacing: var(--the7-btn-m-letter-spacing);
+		word-spacing: var(--the7-btn-m-word-spacing);
+		border-radius: var(--the7-btn-m-border-radius);
+		padding: var(--the7-btn-m-padding);
+		min-height: @input-height;
+		line-height: @input-height;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
+input[type="submit"]:not([name="update_cart"]):not(.woocommerce-widget-layered-nav-dropdown__submit),
+.post-password-form input[type="submit"],
+.mc4wp-form input[type="submit"],
+div.mc4wp-form button[type="submit"],
+.tml-submit-wrap input[type="submit"],
+.wpcf7-form input[type="submit"] {
+	font: var(--the7-btn-m-font);
+	text-transform: var(--the7-btn-m-text-transform);
+	letter-spacing: var(--the7-btn-m-letter-spacing);
+	word-spacing: var(--the7-btn-m-word-spacing);
+	border-radius: var(--the7-btn-m-border-radius);
+	padding: var(--the7-btn-m-padding);
+	min-height: @input-height;
+	line-height: @input-height;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.parentFormundefined,
+.wpcf7-mail-sent-ok,
+.wpcf7-validation-errors,
+.wpcf7-response-output {
+	.popup-message-style &,
+	.inline-message-style &  {
+		background: var(--the7-accent-color);
+	}
+	.popup-message-style.accent-gradient &,
+	.inline-message-style.accent-gradient & {
+		.background-gradient (@startColor: @accent-bg-color, @endColor: @accent-bg-color-2);
+	};
+	& .formErrorContent {
+		font: var(--the7-base-font-big);
+	}
+	#page &,
+	.popup-message-style &,
+	.inline-message-style &  {
+		background: @message-bg-color;
+		color: @message-color !important;
+		border: none;
+		& .formErrorContent,
+		& .formErrorContent a,
+		& .close-message
+		& a {
+			color: @message-color;
+		}
+		&:before {
+			color: @message-color;
+		}
+	}
+}
+.comment-form-cookies-consent label,
+.form-terms-text {
+	.text-small;
+}
