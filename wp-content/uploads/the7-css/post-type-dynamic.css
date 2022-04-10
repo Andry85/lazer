@@ -1,9 +1,9 @@
 .accent-bg-mixin {
   color: #fff;
-  background-color: #1d7a8e;
+  background-color: #2cd3b4;
 }
 .accent-gradient .accent-bg-mixin {
-  background: #1d7a8e;
+  background: #2cd3b4;
   background: -webkit-linear-gradient();
   background: linear-gradient();
 }
@@ -26,14 +26,14 @@
   color: #b4b5bb;
 }
 .sidebar-content .color-base-transparent {
-  color: rgba(139,141,148,0.5);
+  color: rgba(133,134,140,0.5);
 }
 .footer .color-base-transparent {
   color: rgba(133,134,140,0.5);
 }
 .outline-element-decoration .outline-decoration {
-  -webkit-box-shadow: inset 0px 0px 0px 1px rgba(152,154,159,0.3);
-  box-shadow: inset 0px 0px 0px 1px rgba(152,154,159,0.3);
+  -webkit-box-shadow: inset 0px 0px 0px 1px rgba(58,58,58,0.13);
+  box-shadow: inset 0px 0px 0px 1px rgba(58,58,58,0.13);
 }
 .shadow-element-decoration .shadow-decoration {
   -webkit-box-shadow: 0 6px 18px rgba(0,0,0,0.1);
@@ -49,8 +49,8 @@
 .outline-element-decoration .testimonial-item .ts-viewport,
 .outline-element-decoration .bg-on.team-container,
 .outline-element-decoration .dt-team-shortcode.content-bg-on .team-container {
-  -webkit-box-shadow: inset 0px 0px 0px 1px rgba(152,154,159,0.3);
-  box-shadow: inset 0px 0px 0px 1px rgba(152,154,159,0.3);
+  -webkit-box-shadow: inset 0px 0px 0px 1px rgba(58,58,58,0.13);
+  box-shadow: inset 0px 0px 0px 1px rgba(58,58,58,0.13);
 }
 .shadow-element-decoration .testimonial-item:not(.testimonial-item-slider),
 .shadow-element-decoration .testimonial-item .ts-viewport,
@@ -84,13 +84,13 @@
 }
 .team-author p {
   color: #333333;
-  font:   700  /  "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
+  font:   700  /  "Fira Sans", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
 }
 .dt-team-shortcode .team-author p {
   font:     / 1.6em "Roboto", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
-  color: #1d7a8e;
+  color: #2cd3b4;
 }
 .accent-gradient .dt-team-shortcode .team-author p {
   background: -webkit-linear-gradient();
@@ -100,7 +100,7 @@
 }
 @media all and (-ms-high-contrast: none) {
   .accent-gradient .dt-team-shortcode .team-author p {
-    color: #1d7a8e;
+    color: #2cd3b4;
   }
 }
 .dt-mega-parent .sidebar-content .widget .team-author p {
@@ -111,7 +111,7 @@
 .sidebar-content .team-author p {
   font:    14px / 26px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
-  color: rgba(139,141,148,0.5);
+  color: rgba(133,134,140,0.5);
 }
 .footer .team-author p {
   font:    14px / 26px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
@@ -133,13 +133,13 @@
   color: #ffffff;
 }
 #main .sidebar-content .widget .testimonial-vcard .text-secondary {
-  color: rgba(139,141,148,0.5);
+  color: rgba(133,134,140,0.5);
 }
 .dt-testimonials-shortcode .testimonial-vcard .text-secondary {
   font-size: 15px;
   line-height: 1.5em;
   font-weight: normal;
-  color: #1d7a8e;
+  color: #2cd3b4;
 }
 .accent-gradient .dt-testimonials-shortcode .testimonial-vcard .text-secondary {
   background: -webkit-linear-gradient();
@@ -149,11 +149,11 @@
 }
 @media all and (-ms-high-contrast: none) {
   .accent-gradient .dt-testimonials-shortcode .testimonial-vcard .text-secondary {
-    color: #1d7a8e;
+    color: #2cd3b4;
   }
 }
 .dt-testimonials-shortcode .more-link {
-  color: #1d7a8e;
+  color: #2cd3b4;
 }
 .testimonial-vcard .text-primary {
   color: #333333;
@@ -183,15 +183,15 @@
   color: #ffffff;
 }
 .dt-testimonials-shortcode .testimonial-vcard .text-primary {
-  font: normal  normal  /  "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
+  font: normal  normal  /  "Fira Sans", Helvetica, Arial, Verdana, sans-serif;
 }
 .team-author-name,
 .team-author-name a {
   color: #333333;
-  font: normal  normal  /  "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
+  font: normal  normal  /  "Fira Sans", Helvetica, Arial, Verdana, sans-serif;
 }
 .content .team-author-name a:hover {
-  color: #1d7a8e;
+  color: #2cd3b4;
 }
 .accent-gradient .content .team-author-name a:hover {
   background: -webkit-linear-gradient();
@@ -201,12 +201,12 @@
 }
 @media all and (-ms-high-contrast: none) {
   .accent-gradient .content .team-author-name a:hover {
-    color: #1d7a8e;
+    color: #2cd3b4;
   }
 }
 .widget .team-author-name,
 .widget .team-author-name a {
-  font:   700  /  "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
+  font:   700  /  "Fira Sans", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
   color: #333333;
 }
@@ -239,32 +239,32 @@
   color: #ffffff;
 }
 .rsTitle {
-  font:   700  /  "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
+  font:   700  /  "Fira Sans", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
 }
 .rsDesc {
-  font:   700  /  "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
+  font:   700  /  "Fira Sans", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
 }
 @media screen and (max-width: 1200px) {
   .rsTitle {
-    font:   700  /  "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
+    font:   700  /  "Fira Sans", Helvetica, Arial, Verdana, sans-serif;
   }
   .rsDesc {
-    font:   700  /  "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
+    font:   700  /  "Fira Sans", Helvetica, Arial, Verdana, sans-serif;
   }
 }
 @media screen and (max-width: 1024px) {
   .rsTitle {
-    font:   700  /  "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
+    font:   700  /  "Fira Sans", Helvetica, Arial, Verdana, sans-serif;
   }
   .rsDesc {
-    font:   700  /  "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
+    font:   700  /  "Fira Sans", Helvetica, Arial, Verdana, sans-serif;
   }
 }
 @media screen and (max-width: 800px) {
   .rsTitle {
-    font:   700  /  "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
+    font:   700  /  "Fira Sans", Helvetica, Arial, Verdana, sans-serif;
   }
   .rsDesc {
     font:    15px / 1.5em "Roboto", Helvetica, Arial, Verdana, sans-serif;
@@ -281,7 +281,7 @@
 }
 #main-slideshow .progress-spinner-left,
 #main-slideshow .progress-spinner-right {
-  border-color: #1d7a8e !important;
+  border-color: #2cd3b4 !important;
 }
 .slider-content .owl-dot:not(.active):not(:hover),
 .slider-content .owl-dot:not(.active):hover {
@@ -305,13 +305,13 @@
 .sidebar .slider-content .owl-dot:not(.active):hover,
 .sidebar-content .slider-content .owl-dot:not(.active):not(:hover),
 .sidebar-content .slider-content .owl-dot:not(.active):hover {
-  -webkit-box-shadow: inset 0 0 0 2px rgba(139,141,148,0.35);
-  box-shadow: inset 0 0 0 2px rgba(139,141,148,0.35);
+  -webkit-box-shadow: inset 0 0 0 2px rgba(133,134,140,0.35);
+  box-shadow: inset 0 0 0 2px rgba(133,134,140,0.35);
 }
 .sidebar .slider-content .owl-dot.active,
 .sidebar-content .slider-content .owl-dot.active {
-  -webkit-box-shadow: inset 0 0 0 20px rgba(139,141,148,0.35);
-  box-shadow: inset 0 0 0 20px rgba(139,141,148,0.35);
+  -webkit-box-shadow: inset 0 0 0 20px rgba(133,134,140,0.35);
+  box-shadow: inset 0 0 0 20px rgba(133,134,140,0.35);
 }
 .footer .slider-content .owl-dot:not(.active):not(:hover),
 .footer .slider-content .owl-dot:not(.active):hover {

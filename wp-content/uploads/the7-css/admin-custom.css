@@ -7,7 +7,7 @@
 }
 .editor-styles-wrapper .wp-block-cover .wp-block-cover-text,
 .editor-styles-wrapper .wp-block-cover h2 {
-  font:   700 24px / 34px "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif !important;
+  font:   700 24px / 34px "Fira Sans", Helvetica, Arial, Verdana, sans-serif !important;
   text-transform: none;
 }
 .text-big,
@@ -27,7 +27,7 @@
 }
 .wp-block-heading h1,
 .wp-block-freeform.block-library-rich-text__tinymce > h1 {
-  font:   700 44px / 54px "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
+  font:   700 44px / 54px "Fira Sans", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
 }
 @media (max-width: 1024px) {
@@ -44,31 +44,31 @@
 }
 .wp-block-heading h2,
 .wp-block-freeform.block-library-rich-text__tinymce > h2 {
-  font:   700 34px / 44px "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
+  font:   700 34px / 44px "Fira Sans", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
 }
 .wp-block-heading h3,
 .wp-block-freeform.block-library-rich-text__tinymce > h3 {
-  font:   700 24px / 34px "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
+  font:   700 24px / 34px "Fira Sans", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
 }
 .wp-block-heading h4,
 .wp-block-freeform.block-library-rich-text__tinymce > h4 {
-  font:   700 20px / 30px "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
+  font:   700 20px / 30px "Fira Sans", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
 }
 .wp-block-heading h5,
 .wp-block-freeform.block-library-rich-text__tinymce > h5 {
-  font:   700 16px / 26px "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
+  font:   700 16px / 26px "Fira Sans", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
 }
 .wp-block-heading h6,
 .wp-block-freeform.block-library-rich-text__tinymce > h6 {
-  font:   700 14px / 24px "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
+  font:   700 14px / 24px "Fira Sans", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
 }
 .editor-styles-wrapper .wp-block .wp-block-button .wp-block-button__link {
-  font:   700 15px / 17px "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
+  font:   700 14px / 16px "Fira Sans", Helvetica, Arial, Verdana, sans-serif;
   text-transform: none;
   letter-spacing: 0px;
 }

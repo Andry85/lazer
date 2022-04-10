@@ -171,14 +171,14 @@
     display: none;
   }
   .phantom-sticky .sticky-on.masthead:not(.masthead-mobile) {
-    background: #0a0002 none repeat center center !important;
+    background: #ffffff none repeat center center !important;
     background-size: auto;
   }
   .mixed-header.side-header-h-stroke.sticky-top-line-on {
     background-color: #000000 !important;
   }
   .phantom-line-decoration.phantom-sticky .sticky-on.masthead {
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(51,51,51,0.12);
     box-shadow: none !important;
   }
   .phantom-shadow-decoration.phantom-sticky .sticky-on.masthead {
@@ -275,7 +275,7 @@
     margin: 0 16px 0 0;
   }
   .list-type-menu.mini-nav > ul > li > .mini-sub-nav {
-    top: 23px;
+    top: 21px;
   }
   .list-type-menu .menu-select {
     position: absolute;
@@ -329,7 +329,7 @@
 }
 @media screen and (max-width: 778px) {
   .top-bar {
-    padding: 5px 20px 5px 20px;
+    padding: 3px 20px 3px 20px;
   }
   .top-bar.line-content:after {
     width: calc(100% - 20px - 20px);
@@ -500,11 +500,11 @@
     background: none !important;
   }
   body:not(.transparent) .masthead:not(.side-header) {
-    background-color: #0a0002;
+    background-color: #ffffff;
   }
   .transparent .masthead:not(.mixed-header),
   .transparent .masthead.masthead-mobile-header {
-    background: rgba(0,0,0,0.15);
+    background: #ffffff;
   }
   .sticky-mobile-on.masthead:not(.side-header),
   .side-header.masthead-mobile-header.sticky-mobile-on {
@@ -530,7 +530,7 @@
     align-items: center;
   }
   .masthead .mobile-header-bar {
-    min-height: 80px;
+    min-height: 60px;
   }
   .masthead.full-width,
   .masthead.mixed-header {
@@ -587,7 +587,7 @@
   }
   #page .mixed-header.side-header-menu-icon.line-decoration:not(.masthead-mobile-header),
   #page .mixed-header.side-header-v-stroke.line-decoration:not(.masthead-mobile-header) {
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid #dd9933;
   }
   .masthead.shadow-decoration.side-header-menu-icon:not(.masthead-mobile-header) {
     box-shadow: 0 0 15px 1px rgba(0,0,0,0.07);
@@ -822,7 +822,7 @@
     margin: 0 16px 0 0;
   }
   .list-type-menu-first-switch.mini-nav > ul > li > .mini-sub-nav {
-    top: 23px;
+    top: 21px;
   }
   .list-type-menu-first-switch .menu-select {
     position: absolute;
@@ -953,7 +953,7 @@
     margin: 0 16px 0 0;
   }
   .list-type-menu-second-switch.mini-nav > ul > li > .mini-sub-nav {
-    top: 23px;
+    top: 21px;
   }
   .list-type-menu-second-switch .menu-select {
     position: absolute;
@@ -981,7 +981,7 @@
     position: absolute;
   }
   .masthead .mobile-header-bar {
-    min-height: 80px;
+    min-height: 60px;
   }
   .masthead .mobile-header-bar .mobile-mini-widgets > *,
   .masthead .mobile-mini-widgets .in-menu-second-switch {
@@ -1206,7 +1206,7 @@
     height: auto;
   }
 }
-@media screen and (max-width: 778px) {
+@media screen and (max-width: 990px) {
   .page-title.page-title-responsive-enabled .wf-wrap {
     -ms-flex-flow: column wrap;
     flex-flow: column wrap;
@@ -1217,7 +1217,7 @@
     -ms-justify-content: center;
     justify-content: center;
     text-align: center;
-    min-height: 80px;
+    min-height: 90px;
   }
   .page-title-responsive-enabled.page-title.title-left.disabled-bg h1 {
     margin: 5px 0;
@@ -1229,7 +1229,7 @@
   .page-title-responsive-enabled.page-title h1 *,
   .page-title-responsive-enabled.page-title h1 a:hover,
   #page .page-title-responsive-enabled.page-title .entry-title {
-    font:   700 24px / 34px "Roboto Condensed", Helvetica, Arial, Verdana, sans-serif;
+    font:   700 20px / 30px "Fira Sans", Helvetica, Arial, Verdana, sans-serif;
   }
   .page-title-responsive-enabled.page-title.breadcrumbs-mobile-off .breadcrumbs {
     display: none;
@@ -1585,7 +1585,7 @@
     border-top-left-radius: 0;
   }
   .accent-gradient .wc-sidebar-toggle {
-    background: #1d7a8e;
+    background: #2cd3b4;
     background: -webkit-linear-gradient();
     background: linear-gradient();
   }
@@ -1632,7 +1632,7 @@
     transform: translateX(-100%);
     transition: transform 0.3s;
     z-index: 9996;
-    background: #ffffff;
+    background: rgba(0,0,0,0.04);
   }
   .dt-wc-sidebar-collapse .sidebar-right .sidebar:before,
   .dt-wc-sidebar-collapse .sidebar-left .sidebar:before {
