@@ -23,10 +23,12 @@
 define( 'DB_NAME', 'lazer' );
 
 /** MySQL database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'root' );  /** localhost */ 
+/** define( 'DB_USER', 'h76884' ); */  /** diodowylaser.pl */ 
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '' );
+ define( 'DB_PASSWORD', '' );  /** localhost */ 
+/** define( 'DB_PASSWORD', 'svdpvvq925' ); */  /** diodowylaser.pl */
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
