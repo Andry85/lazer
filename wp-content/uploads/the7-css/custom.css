@@ -2200,6 +2200,10 @@ a.mini-contacts:hover {
 
 .branding .mini-contacts {
   font: 500 16px / 20px "Roboto", Helvetica, Arial, Verdana, sans-serif;
+  color: #333;
+}
+
+.home .branding .mini-contacts {
   color: #fff;
 }
 
@@ -2746,6 +2750,10 @@ a.mini-contacts:hover {
 }
 
 .main-nav>li:not(.wpml-ls-item)>a .menu-text {
+  color: #333;
+}
+
+.home .main-nav>li:not(.wpml-ls-item)>a .menu-text {
   color: #fff;
 }
 
